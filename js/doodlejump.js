@@ -67,10 +67,10 @@ window.onload = function () {
   };
 
   doodlerLeftImg = new Image();
-  doodlerLeftImg.src = "../img/doodler-left.png";
+  doodlerLeftImg.src = "/img/doodler-left.png";
 
   platformImg = new Image();
-  platformImg.src = "../img/platform.png";
+  platformImg.src = "/img/platform.png";
 
   velocityY = initialVelocityY;
   placePlatforms();
