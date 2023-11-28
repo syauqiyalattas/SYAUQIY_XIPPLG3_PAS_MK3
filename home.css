@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.page-title {
+  margin-bottom: 20px;
+  color: white;
+}
+
+.button-container {
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  overflow-x: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.button-container a {
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.button-container a:last-child {
+  margin-right: 0;
+}
+
+.button-container a img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #555;
+}
+
+.button-container span {
+  display: block;
+  margin-top: 5px;
+}
+
+.button-container a:hover {
+  transform: scale(1.1);
+}
+
+/* Gaya tulisan hak cipta */
+.copyright {
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  font-size: 14px; /* Ukuran font tulisan hak cipta */
+}
