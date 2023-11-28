@@ -54,7 +54,7 @@ window.onload = function () {
 
   //load images
   doodlerRightImg = new Image();
-  doodlerRightImg.src = "./doodler-right.png";
+  doodlerRightImg.src = "/img/doodler-right.png";
   doodler.img = doodlerRightImg;
   doodlerRightImg.onload = function () {
     context.drawImage(
@@ -67,10 +67,10 @@ window.onload = function () {
   };
 
   doodlerLeftImg = new Image();
-  doodlerLeftImg.src = "./doodler-left.png";
+  doodlerLeftImg.src = "../img/doodler-left.png";
 
   platformImg = new Image();
-  platformImg.src = "./platform.png";
+  platformImg.src = "../img/platform.png";
 
   velocityY = initialVelocityY;
   placePlatforms();
